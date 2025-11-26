@@ -15,7 +15,7 @@ class TestSimpleCalculator(unittest.TestCase):
         self.assertAlmostEqual(self.calc.add(0.1, 0.2), 0.3, places=1)
         # Add more assertions to thoroughly test the add method.
         
-    def test_subtract(self):
+    def test_subtraction(self):
         self.assertEqual(self.calc.subtract(15,5),10)
         self.assertEqual(self.calc.subtract(-5,5),-10)
         self.assertEqual(self.calc.subtract(5,5),0)
