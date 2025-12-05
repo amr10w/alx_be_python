@@ -3,7 +3,7 @@ class Shape():
     def area(self):
         raise NotImplementedError("Subclasses must implement this method")
 
-class Rectangle (Shape):
+class Rectangle(Shape):
     def __init__(self, side, height):
         self.side = side
         self.height = height
